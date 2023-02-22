@@ -1,8 +1,7 @@
-package com.example.new_test_basic;
+package com.example.untitled;
 
 import io.flutter.embedding.android.FlutterActivity;
 
-
-
 public class MainActivity extends FlutterActivity {
+
 }
