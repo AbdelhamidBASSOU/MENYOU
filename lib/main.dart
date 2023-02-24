@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:untitled/pages/home_page.dart';
+import 'package:untitled/pages/single_item_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,6 +29,7 @@ void initState() {
      debugShowCheckedModeBanner: false,
         routes:{
           '/': (context) =>  HomePage(),
+          'singleItemPage': (context) =>  SingleItemPage(),
         },
     );
   }
