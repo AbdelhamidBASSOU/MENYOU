@@ -32,7 +32,7 @@ class HomeNavBar extends StatelessWidget {
         Container(
           padding: EdgeInsets.all(15),
           decoration: BoxDecoration(
-            color: Color(0xFFEFB322),
+            color: Color(0xFFEF8322),
             borderRadius: BorderRadius.circular(30),
             boxShadow: [
               BoxShadow(
