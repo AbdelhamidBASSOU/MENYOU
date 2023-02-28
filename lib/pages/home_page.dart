@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/Widgets/pizza_widget.dart';
 
+import '../Widgets/cheese_widget.dart';
 import '../Widgets/home_nav_bar.dart';
 import '../Widgets/items_widget.dart';
+import '../Widgets/pasta_page.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -69,9 +72,9 @@ class HomePage extends StatelessWidget {
                          flex: 1,
                          child:TabBarView(children: [
                            ItemsWidget(),
-                           ItemsWidget(),
-                           ItemsWidget(),
-                           ItemsWidget(),
+                           PizzaPage(),
+                           CheesePage(),
+                           PastaPage(),
                      ],))
       ]
       ),
